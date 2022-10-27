@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important; 
+    font-family: 'Nunito', sans-serif;
+    }
+
+body{
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #63b48c;
+
+}
+
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+    
+
+}
+
+.imgContainer{
+    display: flex;
+    flex-basis: 100%;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+    
+    
+    
+}
+
+.imgContainer img{
+    width: 300px;
+    height: 300px;
+   
+   
+}

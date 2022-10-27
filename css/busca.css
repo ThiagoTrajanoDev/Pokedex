@@ -1,0 +1,85 @@
+.containerPesquisa{
+    flex-basis: 100%;
+}
+
+.btn .name1{
+    text-transform: capitalize;
+    text-align: center;
+    color:#f7f7f7;
+    font-weight: 700;
+    text-shadow: 0 0 5px #404040;
+
+}
+.pesquisa{
+    width: 280px;
+    margin:10px auto;
+    height: 40px;
+    border-radius: 50px;
+    background: #f7f7f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-area: pesquisa;
+    transition: .5s;
+   
+}
+
+.pesquisa .material-symbols-outlined {
+    color: #63b48c;
+    font-weight: 900;
+    
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    grid-area: btn;
+    flex-basis: 100%;
+}
+.btn .material-symbols-outlined{
+    outline: none;
+    background:none;
+    border: none;
+    color: #f7f7f7;
+    transition: 0.5s;     
+}
+.btn1 .material-symbols-outlined:hover{
+   transform: translateX(-2px);
+   
+}
+.btn2 .material-symbols-outlined:hover{
+   transform: translateX(2px);
+}
+.src-btn{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search-txt{
+    border: none;
+    background:none;
+    outline: none;
+    width: 200px;
+    padding: 0;
+    color: #686868da;
+    font-size: 18px;
+    font-weight: 900px;
+    text-align:start;
+    transition: .5s;
+   
+}
+
+/* .containerPesquisa:hover >.pesquisa >.form> .search-txt{
+    width: 200px;
+    padding: 0 6px;
+}
+.containerPesquisa:hover> .pesquisa>{
+    width: 250px;
+    padding: 0px 6px;
+} */
+
