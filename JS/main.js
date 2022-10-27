@@ -137,7 +137,7 @@ const renderPokemon = async  (pokemon) => {
       
     
         if (class2=='noth'){
-            pokeType.src=(src="../img/NOT.svg")
+            pokeType.src=(src="img/NOT.svg")
             console.log("passou")
         }
 
