@@ -62,58 +62,58 @@ const renderPokemon = async  (pokemon) => {
         console.log(class1)
 
         if (class1=='fire'){
-            pokeType.src=(src="../img/fire.svg")
+            pokeType.src=(src="img/fire.svg")
         }
         else if(class1=='grass'){
-            pokeType.src=(src="../img/grass.svg")
+            pokeType.src=(src="img/grass.svg")
         }
         else if(class1=='bug'){
-            pokeType.src=(src="../img/bug.svg")
+            pokeType.src=(src="img/bug.svg")
         }
         else if(class1=='dark'){
-            pokeType.src=(src="../img/dark.svg")
+            pokeType.src=(src="img/dark.svg")
         }
         else if(class1=='dragon'){
-            pokeType.src=(src="../img/grass.svg")
+            pokeType.src=(src="img/grass.svg")
         }
         else if(class1=='electric'){
-            pokeType.src=(src="../img/eletric.svg")
+            pokeType.src=(src="img/eletric.svg")
         }
         else if(class1=='fairy'){
-            pokeType.src=(src="../img/fairy.svg")
+            pokeType.src=(src="img/fairy.svg")
         }
         else if(class1=='fighting'){
-            pokeType.src=(src="../img/fighting.svg")
+            pokeType.src=(src="img/fighting.svg")
         }
         else if(class1=='flying'){
-            pokeType.src=(src="../img/flying.svg")
+            pokeType.src=(src="img/flying.svg")
         }
         else if(class1=='ghost'){
-            pokeType.src=(src="../img/ghost.svg")
+            pokeType.src=(src="img/ghost.svg")
         }
         else if(class1=='ground'){
-            pokeType.src=(src="../img/ground.svg")
+            pokeType.src=(src="img/ground.svg")
         }
         else if(class1=='ice'){
-            pokeType.src=(src="../img/ice.svg")
+            pokeType.src=(src="img/ice.svg")
         }
         else if(class1=='normal'){
-            pokeType.src=(src="../img/normal.svg")
+            pokeType.src=(src="img/normal.svg")
         }
         else if(class1=='poison'){
-            pokeType.src=(src="../img/poison.svg")
+            pokeType.src=(src="img/poison.svg")
         }
         else if(class1=='psychic'){
-            pokeType.src=(src="../img/psychc.svg")
+            pokeType.src=(src="img/psychc.svg")
         }
         else if(class1=='rock'){
-            pokeType.src=(src="../img/rock.svg")
+            pokeType.src=(src="img/rock.svg")
         }
         else if(class1=='steel'){
-            pokeType.src=(src="../img/steel.svg")
+            pokeType.src=(src="img/steel.svg")
         }
         else if(class1=='water'){
-            pokeType.src=(src="../img/water.svg")
+            pokeType.src=(src="img/water.svg")
         }
         
             
