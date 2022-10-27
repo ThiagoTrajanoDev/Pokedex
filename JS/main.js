@@ -128,7 +128,7 @@ const renderPokemon = async  (pokemon) => {
         pokemonName2.innerHTML ='Try again with another number or name :)    ';
         pokemonName.innerHTML='Not found :('
         pokemonNumber.innerHTML="#000";
-        pokeImg.src = (src='../img/Cubone-Pokemon-No-Background-Clip-Art.png')
+        pokeImg.src = (src='img/Cubone-Pokemon-No-Background-Clip-Art.png')
         
         const className = document.getElementById("body").className
         pokeClass1.classList.remove(className)
